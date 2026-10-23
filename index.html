@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="iconos/flor.ico" type="image/x-icon">
+    <title>FanyMg's</title>
+</head>
+
+<body>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <header class="navbar navbar-expand-lg bg-black py-1 navbar-dark fixed-top">
+        <nav class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/flor.png" alt="Logo" class="d-inline-block align-text-middle logotipo">
+                FanyMg's
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#quien">¿Quién soy?</a>
+                    <a class="nav-link" href="#perfil">Perfil Académico</a>
+                    <a class="nav-link" href="#gustos">Gustos</a>
+                    
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="quien" class="container py-2 pt-5">
+        <div class="row">
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0">
+                <img src="imagenes/yo2.jpg" alt="yo"
+                    class="image-yo img-fluid border-start border-end border-2 border-warning " id="yopi">
+            </figure>
+            
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 pt-md-5 text-center text-lg-end">
+                <h1 class="display-4 fw-bold text-black text-center" id="h1">Manzano</h1>
+                <p id="parrafo" class="collapse d-lg-block ">¡Hola! Mi nombre es Estefanía Manzano.
+                    Actualmente soy estudiante en el area de Desarrollo de Software y Multiplataforma.
+                    Mi enfoque abarca desde la implementación de estructuras de datos y lógica orientada a objetos en
+                    Java y Kotlin, hasta la maquetación en CSS.
+
+                    Cuento con una formación previa como Técnica en Animación Digital.
+                    Me apasiona el diseño y el hecho de poder construir o replicar cosas implementando mi estilo,
+                     mostrando quién soy hacer que mi personalidad sea visible al público para que me conozcan mejor aún sin la necesidad de preguntar.
+                    Actualmente mi meta es introducir y completar el conocimiento y el dominio total de lenguajes de
+                    programación como Java, Kotlin, C, C++, C#, Phyton, MySQL, la implementación del Html y Css y otras
+                    herramienntas de diseño para completar mi formación profesional.</p>
+                <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button"
+                    aria-expanded="false" aria-controls="parrafo">
+                    Leer más...
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <section id="perfil" class="bg-black text-center text-white py-5 pt-5">
+        <article class="container">
+            <img src="imagenes/flor.png" alt="miPerfil" class="img-fluid rounded-circle mb-4 d-none d-lg-inline" id="florcilla">
+             <h1 class="fw-bold text-white text-center mb-4" id="pa">Perfil Académico</h1>
+              <div class="row">
+                 <article class="col-lg-5 col-md-6 mb-4 mb-md-0 text-center text-lg-start" id="cpersonal">
+                    <h3 class="fw-bold mb-3" id="Dper">Datos Personales</h3>
+                        <p class="mb-2"><span class="fw-bold">Nombre:</span> Estefanía Manzano González</p>
+                        <p class="mb-2"><span class="fw-bold">Edad:</span> 19 años</p>
+                        <p class="mb-2"><span class="fw-bold">Cargo:</span> Estudiante</p>
+                        <p class="mb-2"><span class="fw-bold">Ciudad:</span> León, Guanajuato</p>
+                </article>
+                <article class="col-lg-6 col-md-6 text-center text-lg-start" id="cAcademico">
+                    <h3 class="fw-bold mb-3" id="DatosA">Datos Académicos</h3>
+                        <p class="mb-2"><span class="fw-bold">Carrera:</span> TSU en Desarrollo de Software y Multiplataforma</p>
+                        <p class="mb-2"><span class="fw-bold">Universidad:</span> Universidad Tecnológica de León</p>
+                        <p class="mb-2"><span class="fw-bold">Formación:</span> Técnica en Animación Digital</p>
+                </article>
+            </div>
+        </article>
+    </section>
+
+     <!-- BTS -->
+    <section id="gustos" class="container py-5 pt-5">
+        <h1 class="display-4 fw-bold text-center text-info-black">Lo que más me gusta</h1>
+        <div class="row">
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3">
+                <div class="card bg-black">
+                    <img src="imagenes/bts.jpg" class="image-bt" alt="BTS">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center text-white">BTS</h5>
+                        <p class="card-text d-none d-lg-flex text-center text-white">
+                            Grupo de k-pop formado en Seúl en 2013,
+                             integrado por RM, Jin, Suga, J-Hope, Jimin, V y Jungkook.
+                        </p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal"
+                            data-bs-target="#bts">jk</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- VL -->
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3">
+                <div class="card bg-black">
+                    <img src="imagenes/VL.jpg" class="image-vl" alt="VL">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center text-white">La Onda</h5>
+                        <p class="card-text d-none d-lg-flex text-center text-white">
+                            Foto oficial del liderazgo de La Onda en el patio principal de la prisión de San Quintín.
+                        </p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal"
+                            data-bs-target="#vl">VL</a>
+                    </div>
+                </div>
+            </article>
+
+             <!-- gallo -->
+
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3">
+                <div class="card bg-black">
+                    <img src="imagenes/gallo.jpg" class="image-gr" alt="gallo">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center text-white">Gallos (Giro Hatch)</h5>
+                        <p class="card-text d-none d-lg-flex text-center text-white">
+                            Son reconocidos por su fuerza, agresividad,
+                             velocidad y su corte de abajo hacia arriba.
+                        </p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal"
+                            data-bs-target="#giro">giro</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAKE -->
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3">
+                <div class="card bg-black">
+                    <img src="imagenes/bob.jpg" class="image-cb" alt="CB">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center text-white">Cake Boss</h5>
+                        <p class="card-text d-none d-lg-flex text-center text-white">
+                            Buddy Valastro en Carlo's Bakery, crea pasteles artísticos de diseños complejos a gran escala.
+                        </p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal"
+                            data-bs-target="#cb">CB</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+   
+    <section id="habilidades">
+         <h1 class="display-4 fw-bold text-white text-center" id="h1">Habilidades</h1>
+        <div id="carrusel" class="carousel slide mt-3 col-8 offset-2">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/habilidad01.jpg" class="d-block w-100 img-fluid" alt="pintura">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Pintar</h5>
+                        <p>Hace poco descubrí una nueva habilidad y es la de pintar. Me gusta mucho el hecho de poder plasmar un sentimiento o incluso replicar algo de forma exacta.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/habilidad02.jpg" class="d-block w-100" alt="carro">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Conducir</h5>
+                        <p>Tengo la habilidad de poder manipular una unidad de transporte estandar</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/habilidad03.jpg" class="d-block w-100" alt="comida" id="food">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Cocinar</h5>
+                        <p>Una habilidad más es crear nuevas combinaciones en tanto a comida y postres</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/habilidad04.jpg" class="d-block w-100" alt="informacion">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Obtener información </h5>
+                        <p>Desde siempre he tenido la habilidad de buscar información y obtener datos de temas, peronas o casos de interes
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-black text-white text-center " id="copyPrincipal">
+        <p class="py-3"><span id="derechos">Copyright©️ 2026 민윤기</span></p>
+    </footer>
+
+</body>
+</html>
