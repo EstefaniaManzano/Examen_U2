@@ -11,7 +11,7 @@
     <title>FanyMg's</title>
 </head>
 
-<body>
+<body id="fondo">
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>-->
     <script src="js/bootstrap.min.js"></script>
     <header class="navbar navbar-expand-lg bg-black py-1 navbar-dark fixed-top">
@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#quien">¿Quién soy?</a>
                     <a class="nav-link" href="#perfil">Perfil Académico</a>
                     <a class="nav-link" href="#gustos">Gustos</a>
-                    
+                    <a class="nav-link" href="#exper">Proyecto</a>
                     <a class="nav-link" href="#habilidades">Habilidades</a>
                     <a class="nav-link" href="contacto.html">Contacto</a>
                 </div>
@@ -157,9 +157,34 @@
 
         </div>
     </section>
+
+    <section  id="perfil" class="bg-black text-center text-white py-5 pt-5">
+     <section id="exper" class="container py-2 pt-5">
+        <div class="row">
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0">
+                <img src="imagenes/experiencia.png" alt="yo"
+                    class="image-yo img-fluid border-start border-end border-2 border-warning " id="experiencia">
+            </figure>
+            
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 pt-md-5 text-center text-lg-end">
+                <h1 class="display-4 fw-bold text-white text-center" id="h1">Proyecto</h1>
+                <p id="parrafo" class="collapse d-lg-block ">Engine Security fue un proyecto integrador clave en el cuatrimestre
+                     pasado enfocado en el sistema de control de accesos vehiculares.
+                     Junto con a mi equipo, abarcamos desde el diseño de prototipos interactivos y wireframes en Figma hasta la arquitectura, 
+                     la documentación técnica y las evaluaciones de usabilidad basadas en las heurísticas de Jakob Nielsen y WAVE. 
+                     Fue un trabajo muy completo donde cada decisión de diseño, identidad visual y estructura reflejó el gran esfuerzo técnico y 
+                     colaborativo que le dedicaron para consolidar una propuesta sólida.</p>
+                <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button"
+                    aria-expanded="false" aria-controls="parrafo">
+                    Leer más...
+                </a>
+            </article>
+        </div>
+    </section>
+    </section>
    
     <section id="habilidades">
-         <h1 class="display-4 fw-bold text-white text-center" id="h1">Habilidades</h1>
+         <h1 class="display-4 fw-bold text-black text-center" id="h1">Habilidades</h1>
         <div id="carrusel" class="carousel slide mt-3 col-8 offset-2">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true"
@@ -213,7 +238,7 @@
         </div>
     </section>
 
-    <footer class="container-fluid bg-black text-white text-center " id="copyPrincipal">
+    <footer class="container-fluid bg-black text-white text-center " id="copyContacto">
         <p class="py-3"><span id="derechos">Copyright©️ 2026 민윤기</span></p>
     </footer>
 
